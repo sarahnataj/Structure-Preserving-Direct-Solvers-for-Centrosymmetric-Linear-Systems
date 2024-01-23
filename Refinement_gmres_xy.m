@@ -15,9 +15,6 @@
 % Output: n_ir = the number of iterations for GMRES to converge,
 %       e_u = norm of the error.
 %
-% Algorithm 5 is discussed in the manuscript: Structure-preserving 
-% solvers for centrosymmetric linear systems with applications to spectral methods
-% by Chen Greif, Sarah Nataj and Manfred Trummer.
 %
 % Author: Sarah Nataj, email:sarah.nataj@gmail.com
 function [e_d, e_s, e_r,i, condition,condition_scaled,siz]=Refinement_gmres_xy(n,ecase)
