@@ -6,9 +6,6 @@
 % differentiation matrices. z_exact=uex is exact solution of 2D/3D Poisson
 % and  2D biharmonic equations at the collocation points.
 %
-% Algorithm 2: A is 2D second order SPD spectral differentiation matrix using
-% Legendre Gauss Lobatto points. We also assume SPD matrices arising from solving
-% 3D Poisson equation using finite differences schemes. 
 %
 % Input: N is the array of number of collocation nodes to be considered.
 % Output: Graphs for time complexity of the algorithm and relative errors
