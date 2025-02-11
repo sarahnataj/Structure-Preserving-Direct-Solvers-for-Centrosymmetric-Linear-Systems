@@ -1,11 +1,11 @@
-# Direct-solvers-for-centrosymmetric-and-skew-centrosymmetric-linear-systems
+# Structure-Preserving Direct Solvers for Centrosymmetric Linear Systems
 
-Code for the paper: A note on direct solvers for centrosymmetric and skew--centrosymmetric linear systems
+Code for the paper: Numerical Stability of Structure-Preserving Direct Solvers for Centrosymmetric Linear Systems
 
-Authors: Chen Greif, Sarah Nataj, Manfred Trummer
+Authors: Sarah Nataj, Chen Greif, Manfred Trummer
 
-Subjects: Numerical linear algebra, Spectral methods for PDEs
+Subjects: direct solution of linear systems, centrosymmetric and skew--centrosymmetric matrices, numerical stability, mixed precision
 
 Pdf link:
 
-Abstract: 	We consider structure-preserving LU-type factorizations for centrosymmetric and skew--centrosymmetric matrices. We build on existing algorithms and complement the factorizations with equilibration and mixed-precision computations. We apply the solvers to linear systems arising from spectral discretizations of model problems and demonstrate their effectiveness.
+Abstract: 	This paper analyzes direct solvers for centrosymmetric linear systems, applying structure-preserving factorizations with a particular focus on assessing their stability. We build on existing algorithms and complement the factorizations with equilibration and mixed-precision computations. The solvers  are applied to linear systems arising from spectral discretizations of partial differential equations and the results demonstrate their effectiveness. We  evaluate the accumulation of roundoff errors during the computational process and their impact on the numerical solution. The study demonstrates that errors originating from the factorization of the matrix and a modified substitution propagate in a stable manner, establishing the direct solver’s robustness. Additionally, we provide insights into the solver's stability by proving a bound on the relative error. 
